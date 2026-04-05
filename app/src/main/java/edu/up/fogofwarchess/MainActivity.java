@@ -1,4 +1,4 @@
-package edu.up.fogofwarchess;
+package edu.up.fowc;
 
 import android.os.Bundle;
 

@@ -3,15 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "edu.up.fogofwarchess"
+    namespace = "edu.up.fowc"
     compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
+        version = release(36)
     }
 
     defaultConfig {
-        applicationId = "edu.up.fogofwarchess"
+        applicationId = "edu.up.fowc"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
