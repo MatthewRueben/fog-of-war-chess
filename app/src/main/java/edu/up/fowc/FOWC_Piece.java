@@ -1,4 +1,4 @@
-package edu.up.fogofwarchess;
+package edu.up.fowc;
 
 public abstract class FOWC_Piece
 {
