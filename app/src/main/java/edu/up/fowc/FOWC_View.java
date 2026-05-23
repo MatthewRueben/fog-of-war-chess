@@ -47,10 +47,9 @@ public class FOWC_View extends SurfaceView {
             }
         }
 
-
-
-        //canvas.drawCircle(500.0f, 500.0f, 100.0f, this.paints.whitePieceFill);
-        //canvas.drawCircle(500.0f, 500.0f, 100.0f, this.paints.whitePieceStroke);
+        // Test out translucent fog.
+        int numRanksToFog = 2;
+        canvas.drawRect(boardLeft, boardTop, boardLeft + FOWC_State.NUM_FILES * squareSideLength, boardTop + numRanksToFog * squareSideLength, this.paints.fog);
 
     }
 

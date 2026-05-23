@@ -6,6 +6,7 @@ import android.graphics.Paint;
 public class FOWC_Paints {
 
     Paint background = new Paint();
+    Paint fog = new Paint();
     Paint boardLine = new Paint();
     Paint whiteSquare = new Paint();
     Paint whitePieceFill = new Paint();
@@ -17,6 +18,10 @@ public class FOWC_Paints {
     public FOWC_Paints()
     {
         this.background.setColor(Color.GRAY); // Style is unused.
+
+        this.fog.setColor(this.background.getColor());
+        this.fog.setAlpha(200);
+        this.fog.setStyle(Paint.Style.FILL);
 
         this.boardLine.setColor(Color.DKGRAY);
         this.boardLine.setStyle(Paint.Style.STROKE);
